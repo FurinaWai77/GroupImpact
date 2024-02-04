@@ -1,0 +1,3503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2004</width>
+    <height>1400</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow{
+opacity: 0.6;
+border-image: url(&quot;./bg/1.jpg&quot;);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="5">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="3" column="0">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="2">
+           <widget class="QSpinBox" name="Cn_spinBox_n">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Cn group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>n,m in Cn^m</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>T group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>O group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QSpinBox" name="Cn_spinBox_m">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Y group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Dn group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QSpinBox" name="Dn_spinBox_n">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>n in Dn</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_9">
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <pointsize>30</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>1st type point group</string>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_10">
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <pointsize>30</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>2nd type point group</string>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="4" column="1">
+           <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>n,m in Sn^m</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Dnh group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QPushButton" name="pushButton_12">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Td group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QSpinBox" name="Cnh_spinBox_ref">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <number>1</number>
+            </property>
+            <property name="value">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="label_7">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>n in Dnd</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QSpinBox" name="Sn_spinBox_m">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Sn group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QSpinBox" name="Cnh_spinBox_n">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QSpinBox" name="Dnd_spinBox_n">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QSpinBox" name="Sn_spinBox_n">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Cnv group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Cnh group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QPushButton" name="pushButton_14">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yh group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="label_4">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>reflect?</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QSpinBox" name="Cnh_spinBox_m">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QPushButton" name="pushButton_11">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Th group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>n,m in Cn^m</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="label_5">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>n in Cnv</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QSpinBox" name="Cnv_spinBox_n">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Dnd group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="label_6">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>n in Dnh</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QPushButton" name="pushButton_13">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Oh group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QSpinBox" name="Dnh_spinBox_n">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_12">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>40</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Point group visualization</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label_11">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>40</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Crystal Point Group Visualization</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_13">
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <pointsize>40</pointsize>
+            <weight>75</weight>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Schoenflies Symbol</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="1" column="8">
+           <widget class="QPushButton" name="pushButton_30">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>S_4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="pushButton_36">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_3h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="12">
+           <widget class="QPushButton" name="pushButton_46">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_6v</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="11">
+           <widget class="Line" name="line_18">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="9">
+           <widget class="Line" name="line_20">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="6">
+           <widget class="QPushButton" name="pushButton_41">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_2d</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="Line" name="line_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="Line" name="line_10">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7">
+           <widget class="Line" name="line_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="Line" name="line_28">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="Line" name="line_29">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="Line" name="line_26">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="8">
+           <widget class="QPushButton" name="pushButton_42">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_3v</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="12">
+           <widget class="QPushButton" name="pushButton_24">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="10">
+           <widget class="QPushButton" name="pushButton_45">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>T_h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="10">
+           <widget class="QPushButton" name="pushButton_31">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>S_6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="pushButton_27">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>O</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="Line" name="line_9">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="13">
+           <widget class="Line" name="line_15">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="Line" name="line_11">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="pushButton_35">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_4h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="9">
+           <widget class="Line" name="line_13">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <widget class="QPushButton" name="pushButton_23">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="7">
+           <widget class="Line" name="line_22">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="10">
+           <widget class="QPushButton" name="pushButton_44">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_4v</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="11">
+           <widget class="Line" name="line_17">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="Line" name="line_27">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="14">
+           <widget class="QPushButton" name="pushButton_48">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_2h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="Line" name="line_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="11">
+           <widget class="Line" name="line_7">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="13">
+           <widget class="Line" name="line_19">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="9">
+           <widget class="Line" name="line_6">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="14">
+           <widget class="QPushButton" name="pushButton_49">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>O_h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="13">
+           <widget class="Line" name="line_16">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="6">
+           <widget class="QPushButton" name="pushButton_40">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_2v</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QPushButton" name="pushButton_38">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_6h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="8">
+           <widget class="QPushButton" name="pushButton_43">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_3d</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_18">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="4">
+           <widget class="QPushButton" name="pushButton_39">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_6h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="13">
+           <widget class="Line" name="line_8">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="9">
+           <widget class="Line" name="line_21">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QPushButton" name="pushButton_28">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>T</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="12">
+           <widget class="QPushButton" name="pushButton_47">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>T_d</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QPushButton" name="pushButton_20">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6">
+           <widget class="QPushButton" name="pushButton_21">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton_26">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="14">
+           <widget class="QPushButton" name="pushButton_33">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_2h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QPushButton" name="pushButton_22">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="Line" name="line_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="7">
+           <widget class="Line" name="line_23">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="5">
+           <widget class="Line" name="line_24">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="11">
+           <widget class="Line" name="line_14">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="7">
+           <widget class="Line" name="line_12">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="6">
+           <widget class="QPushButton" name="pushButton_29">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>S_2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_19">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_34">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_3h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QPushButton" name="pushButton_37">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_4h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="Line" name="line_25">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="14">
+           <widget class="QPushButton" name="pushButton_25">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>D_4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="12">
+           <widget class="QPushButton" name="pushButton_32">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>C_1h</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_14">
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <pointsize>40</pointsize>
+            <weight>75</weight>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Hermann-Mauguin Symbol</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="3" column="3">
+           <widget class="Line" name="line_58">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="14">
+           <widget class="QPushButton" name="pushButton_82">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>4/m ~3 2/m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="pushButton_83">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>222</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="Line" name="line_59">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="7">
+           <widget class="Line" name="line_60">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="10">
+           <widget class="QPushButton" name="pushButton_84">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>23</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QPushButton" name="pushButton_85">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>32</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="6">
+           <widget class="QPushButton" name="pushButton_86">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>mm2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="14">
+           <widget class="QPushButton" name="pushButton_87">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="Line" name="line_61">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QPushButton" name="pushButton_88">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="6">
+           <widget class="QPushButton" name="pushButton_89">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>422</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="12">
+           <widget class="QPushButton" name="pushButton_90">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>~43m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="13">
+           <widget class="Line" name="line_62">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="10">
+           <widget class="QPushButton" name="pushButton_91">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>4mm</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="11">
+           <widget class="Line" name="line_63">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="13">
+           <widget class="Line" name="line_64">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="11">
+           <widget class="Line" name="line_65">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="8">
+           <widget class="QPushButton" name="pushButton_92">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>~3 2/m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="Line" name="line_66">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="13">
+           <widget class="Line" name="line_67">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="14">
+           <widget class="QPushButton" name="pushButton_93">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>~4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="13">
+           <widget class="Line" name="line_68">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="pushButton_94">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>4/m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="14">
+           <widget class="QPushButton" name="pushButton_95">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>2/m 2/m 2/m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="11">
+           <widget class="Line" name="line_69">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="12">
+           <widget class="QPushButton" name="pushButton_96">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>432</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <widget class="QPushButton" name="pushButton_97">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>~1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7">
+           <widget class="Line" name="line_70">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="9">
+           <widget class="Line" name="line_71">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="9">
+           <widget class="Line" name="line_72">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="Line" name="line_73">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="Line" name="line_74">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="8">
+           <widget class="QPushButton" name="pushButton_98">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>3m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="12">
+           <widget class="QPushButton" name="pushButton_99">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>6mm</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="Line" name="line_75">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="7">
+           <widget class="Line" name="line_76">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="7">
+           <widget class="Line" name="line_77">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="Line" name="line_78">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="9">
+           <widget class="Line" name="line_79">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="4">
+           <widget class="QPushButton" name="pushButton_100">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>6/m 2/m 2/m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6">
+           <widget class="QPushButton" name="pushButton_101">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="Line" name="line_80">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QPushButton" name="pushButton_102">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="11">
+           <widget class="Line" name="line_81">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="5">
+           <widget class="Line" name="line_82">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="8">
+           <widget class="QPushButton" name="pushButton_103">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>622</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton_104">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>~6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_105">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="9">
+           <widget class="Line" name="line_83">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="Line" name="line_84">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="Line" name="line_85">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="10">
+           <widget class="QPushButton" name="pushButton_106">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>2/m ~3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_107">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="12">
+           <widget class="QPushButton" name="pushButton_108">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>~3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_109">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>2/m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="pushButton_110">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>4/m m m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QPushButton" name="pushButton_111">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>6/m</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QPushButton" name="pushButton_112">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>~6m2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="6">
+           <widget class="QPushButton" name="pushButton_113">
+            <property name="font">
+             <font>
+              <family>Microsoft YaHei</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>~42m</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_15">
+          <property name="font">
+           <font>
+            <family>Segoe UI Variable Small Light</family>
+            <pointsize>20</pointsize>
+            <weight>75</weight>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Here ~ represents inversion axis, m represents reflection.</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="Line" name="line">
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>20</number>
+      </property>
+      <property name="midLineWidth">
+       <number>10</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="4">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QPushButton" name="pushButton_15">
+        <property name="font">
+         <font>
+          <family>Arial Narrow</family>
+          <pointsize>20</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="text">
+         <string>Point Group Visualization</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_17">
+        <property name="font">
+         <font>
+          <family>Arial Narrow</family>
+          <pointsize>20</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="text">
+         <string>Crystal Point Group Visualization</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_16">
+        <property name="font">
+         <font>
+          <family>Arial Narrow</family>
+          <pointsize>20</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="text">
+         <string>Crystal System Visualization (reserved)</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="4">
+     <widget class="Line" name="line_30">
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>40</number>
+      </property>
+      <property name="midLineWidth">
+       <number>30</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2004</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFiles">
+    <property name="title">
+     <string>Play</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Genshin</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuImpact">
+    <property name="title">
+     <string>Impact</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHere">
+    <property name="title">
+     <string>Here</string>
+    </property>
+    <addaction name="actionwo_men"/>
+    <addaction name="actionyuanshen"/>
+    <addaction name="actionwanjia"/>
+    <addaction name="actionjiushi"/>
+    <addaction name="actionzheyang"/>
+    <addaction name="actionde"/>
+    <addaction name="actionnie"/>
+   </widget>
+   <addaction name="menuFiles"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuImpact"/>
+   <addaction name="menuHere"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionwo_men">
+   <property name="text">
+    <string>wo men</string>
+   </property>
+  </action>
+  <action name="actionyuanshen">
+   <property name="text">
+    <string>yuanshen</string>
+   </property>
+  </action>
+  <action name="actionwanjia">
+   <property name="text">
+    <string>wanjia</string>
+   </property>
+  </action>
+  <action name="actionjiushi">
+   <property name="text">
+    <string>jiushi</string>
+   </property>
+  </action>
+  <action name="actionzheyang">
+   <property name="text">
+    <string>zheyang</string>
+   </property>
+  </action>
+  <action name="actionde">
+   <property name="text">
+    <string>de</string>
+   </property>
+  </action>
+  <action name="actionnie">
+   <property name="text">
+    <string>nie</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_T_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>212</x>
+     <y>265</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_O_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>49</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>211</x>
+     <y>346</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Y_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>52</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>209</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Cnh_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>477</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Cnv_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>631</x>
+     <y>135</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Dnh_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>58</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>634</x>
+     <y>206</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Dnd_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>59</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Sn_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>637</x>
+     <y>305</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Th_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>61</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>630</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Td_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>622</x>
+     <y>431</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Oh_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>63</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>618</x>
+     <y>477</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Yh_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>614</x>
+     <y>536</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Dn_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>211</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Cn_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>92</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_18</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C1_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>510</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>386</x>
+     <y>509</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C2_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>372</x>
+     <y>545</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_20</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C3_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>994</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>387</x>
+     <y>478</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_26</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D6_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>302</x>
+     <y>596</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_34</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C3h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>318</x>
+     <y>624</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_36</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D3h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>685</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>348</x>
+     <y>661</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_27</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_O_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>385</x>
+     <y>436</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_35</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C4h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>385</x>
+     <y>610</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_37</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D4h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>685</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>560</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_28</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_T_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>994</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>285</x>
+     <y>530</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_38</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C6h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>994</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>505</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_39</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D6h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>994</x>
+     <y>685</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>266</x>
+     <y>479</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_21</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C4_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>277</x>
+     <y>467</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_29</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_S2_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>258</x>
+     <y>427</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_40</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C2v_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>363</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_41</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D2d_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>685</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>640</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_22</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C6_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1387</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>386</x>
+     <y>649</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_30</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_S4_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1387</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>558</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_42</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C3v_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1387</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>571</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_43</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D3d_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1387</x>
+     <y>685</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>213</x>
+     <y>607</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_23</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D2_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1583</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>541</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_31</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_S6_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1583</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>593</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_44</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C4v_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1583</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>277</x>
+     <y>520</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_45</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Th_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1583</x>
+     <y>685</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>246</x>
+     <y>577</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_24</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D3_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1779</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>284</x>
+     <y>461</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_32</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C1h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1779</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>292</x>
+     <y>487</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_25</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D4_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1975</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>278</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_46</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C6v_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1779</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>374</x>
+     <y>535</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_47</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Td_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1779</x>
+     <y>685</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>362</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_33</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C2h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1975</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>244</x>
+     <y>657</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_48</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_D2h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1975</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>338</x>
+     <y>423</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_49</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_Oh_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1975</x>
+     <y>685</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>346</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_107</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>971</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>27</x>
+     <y>773</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_105</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>971</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>51</x>
+     <y>777</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_102</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>994</x>
+     <y>971</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>73</x>
+     <y>784</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_101</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>971</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>97</x>
+     <y>792</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_88</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1387</x>
+     <y>971</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>116</x>
+     <y>799</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_97</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_bar_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1583</x>
+     <y>971</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>144</x>
+     <y>804</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_108</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_bar_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1779</x>
+     <y>971</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>816</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_93</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_bar_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1975</x>
+     <y>971</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>218</x>
+     <y>821</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_104</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_bar_6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>481</x>
+     <y>990</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>13</x>
+     <y>795</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_83</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>1023</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>30</x>
+     <y>802</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_85</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>994</x>
+     <y>1023</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>48</x>
+     <y>815</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_89</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>1023</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>63</x>
+     <y>819</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_103</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1387</x>
+     <y>1023</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>81</x>
+     <y>829</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_84</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_T()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1583</x>
+     <y>1023</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>110</x>
+     <y>841</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_96</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_O()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1779</x>
+     <y>1023</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>382</x>
+     <y>855</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_87</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_C1h()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1975</x>
+     <y>1023</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>388</x>
+     <y>881</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_109</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C2h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>852</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_94</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C4h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>17</x>
+     <y>862</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_111</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_C6h_group()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>994</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>25</x>
+     <y>847</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_86</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_C2v()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>134</x>
+     <y>833</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_98</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_C3v()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1387</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>43</x>
+     <y>871</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_91</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_C4v()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1583</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>74</x>
+     <y>878</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_99</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_C6v()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1779</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>268</x>
+     <y>894</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_95</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D2h()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1975</x>
+     <y>1075</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>889</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_110</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D4h()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>1127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>33</x>
+     <y>898</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_112</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D3h()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>1127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>58</x>
+     <y>908</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_100</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D6h()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>994</x>
+     <y>1127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>89</x>
+     <y>903</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_113</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D2d()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>1127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>923</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_92</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_D3d()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1387</x>
+     <y>1127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>154</x>
+     <y>913</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_106</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_Th()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1583</x>
+     <y>1127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>940</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_90</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_Td()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1779</x>
+     <y>1127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>229</x>
+     <y>934</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_82</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>run_HM_Oh()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1975</x>
+     <y>1127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>959</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_15</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>PageSet_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>131</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>217</x>
+     <y>254</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_17</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>PageSet_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>697</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>45</x>
+     <y>596</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>run_Cn_group()</slot>
+  <slot>run_Dn_group()</slot>
+  <slot>run_T_group()</slot>
+  <slot>run_O_group()</slot>
+  <slot>run_Y_group()</slot>
+  <slot>run_Cnh_group()</slot>
+  <slot>run_Cnv_group()</slot>
+  <slot>run_Dnh_group()</slot>
+  <slot>run_Dnd_group()</slot>
+  <slot>run_Sn_group()</slot>
+  <slot>run_Th_group()</slot>
+  <slot>run_Td_group()</slot>
+  <slot>run_Oh_group()</slot>
+  <slot>run_Yh_group()</slot>
+  <slot>setCurrentIndex(0)</slot>
+  <slot>setCurrentIndex(1)</slot>
+  <slot>run_C1_group()</slot>
+  <slot>run_C2_group()</slot>
+  <slot>run_C3_group()</slot>
+  <slot>run_C4_group()</slot>
+  <slot>run_C6_group()</slot>
+  <slot>run_D2_group()</slot>
+  <slot>run_D3_group()</slot>
+  <slot>run_D4_group()</slot>
+  <slot>run_D6_group()</slot>
+  <slot>run_S2_group()</slot>
+  <slot>run_S4_group()</slot>
+  <slot>run_S6_group()</slot>
+  <slot>run_C1h_group()</slot>
+  <slot>run_C2h_group()</slot>
+  <slot>run_C3h_group()</slot>
+  <slot>run_C4h_group()</slot>
+  <slot>run_C6h_group()</slot>
+  <slot>run_C2v_group()</slot>
+  <slot>run_C3v_group()</slot>
+  <slot>run_C4v_group()</slot>
+  <slot>run_C6v_group()</slot>
+  <slot>run_D2h_group()</slot>
+  <slot>run_D3h_group()</slot>
+  <slot>run_D4h_group()</slot>
+  <slot>run_D6h_group()</slot>
+  <slot>run_D2d_group()</slot>
+  <slot>run_D3d_group()</slot>
+  <slot>run_HM_1()</slot>
+  <slot>run_HM_2()</slot>
+  <slot>run_HM_3()</slot>
+  <slot>run_HM_4()</slot>
+  <slot>run_HM_6()</slot>
+  <slot>run_HM_bar_1()</slot>
+  <slot>run_HM_bar_3()</slot>
+  <slot>run_HM_bar_4()</slot>
+  <slot>run_HM_bar_6()</slot>
+  <slot>run_HM_D2()</slot>
+  <slot>run_HM_D3()</slot>
+  <slot>run_HM_D4()</slot>
+  <slot>run_HM_D6()</slot>
+  <slot>run_HM_T()</slot>
+  <slot>run_HM_O()</slot>
+  <slot>run_HM_Y()</slot>
+  <slot>run_HM_C1h()</slot>
+  <slot>run_HM_C2h()</slot>
+  <slot>run_HM_C3h()</slot>
+  <slot>run_HM_C4h()</slot>
+  <slot>run_HM_C6h()</slot>
+  <slot>run_HM_C2v()</slot>
+  <slot>run_HM_C3v()</slot>
+  <slot>run_HM_C4v()</slot>
+  <slot>run_HM_C6v()</slot>
+  <slot>run_HM_D2h()</slot>
+  <slot>run_HM_D3h()</slot>
+  <slot>run_HM_D4h()</slot>
+  <slot>run_HM_D6h()</slot>
+  <slot>run_HM_D2d()</slot>
+  <slot>run_HM_D3d()</slot>
+  <slot>run_HM_Th()</slot>
+  <slot>run_HM_Td()</slot>
+  <slot>run_HM_Oh()</slot>
+  <slot>PageSet_1()</slot>
+  <slot>PageSet_2()</slot>
+  <slot>PageSet_3()</slot>
+ </slots>
+</ui>
